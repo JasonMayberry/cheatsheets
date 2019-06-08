@@ -10,7 +10,7 @@ rm file - delete file
 rm -r dir - delete directory dir
 rm -f file - force remove file
 rm -rf dir - remove directory dir
-rm -rf / - make computer faster
+rm -rf ~/ - delete system Home directory (NOT GOOD!)
 cp file1 file2 - copy file1 to file2
 mv file1 file2 - rename or move file1 to path/file2
 ln -s file link - create symbolic link 'link' to file
