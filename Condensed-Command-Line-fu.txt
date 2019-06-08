@@ -1,0 +1,15 @@
+COMMAND LINE FU
+echo "ls -l" | at midnight - execute a
+<space>command - execute command without saving it
+time read (ctrl-d to stop) - stopwatch
+man ascii - ascii table
+echo "!!" > foo.sh - create a script of the last command
+curl ifconfig.me - get your external/public IP address
+pushd /tmp - push a directory to a stack, do some work then 
+ps aux | grep -i process - find a process you want
+!* - reuse all parameters from previous command
+du -s * | sort -n | tail - get 10 biggest files in
+vim scp://username@host//path/to/somefile - remotely edit
+mkdir -p a/long/directory/path - make dir, with many
+chmod --reference filel file2 - copy perms of file1 to file2
+ls -d */ - list only the directories
