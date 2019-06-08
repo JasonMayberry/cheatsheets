@@ -186,7 +186,50 @@ other
    u - undo last change
    U - undo all changes to line
 
-
+COMMAND LINE FU (functions)
+echo "ls -l" | at midnight - execute a
+               command at a specified time
+netstat -tlnp - list all listening ports
+dig +short txt <keyword>.wp.dg.cx - query wikipedia
+                                     using DNS
+mount | column -t - mounted filesystems in nice layout
+sshfs name@server:/path/to/folder /path/to/mount/point
+    - mount filesystem over SSH
+<space>command - execute command without saving it
+                    in history
+time read (ctrl-d to stop) - stopwatch
+net rpc shutdown -I ipAddressOfWindowsPC -U username password
+    - remotely shutdown Windows machine
+(cd /tmp && ls) jump to dir, exec command, jump back
+    to dir
+man ascii - ascii table
+ps aux | sort -nk +4 | tail - top 18 running processes
+                               sorted by memory usage
+ctrl-l - clear terminal screen
+ssh -t reachable_host ssh unreachable_host - ssh through
+    host in the middle
+telnet towel.blinkenlights.nl - You could watch Starwars via 
+    telnet but don't run this dark-web crap. Buy the movie!
+ping -i 60 -a IP_address - set audible alarm for when IP
+    comes online
+lsof -i - watch real time network activity
+echo "!!" > foo.sh - create a script of the last command
+curl ifconfig.me - get your external/public IP address
+pushd /tmp - push a directory to a stack, do some work then 
+              go back to previous dir by running popd
+ps aux | grep -i process - find a process you want
+!* - reuse all parameters from previous command
+du -s * | sort -n | tail - get 10 biggest files in
+    the current directory
+mv filename.{old,new} - quickly rename file
+vim scp://username@host//path/to/somefile - remotely edit
+                                             a file
+mkdir -p a/long/directory/path - make dir, with many
+    intermediate dirs
+chmod --reference filel file2 - copy perms of file1 to file2
+ls -d */ - list only the directories
+vi */pattern [file] - open file in vim, at pattern
+leave +15 - remind yourself to leave in 15 minutes
 
 
 
